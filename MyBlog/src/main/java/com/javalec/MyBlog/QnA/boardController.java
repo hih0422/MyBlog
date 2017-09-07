@@ -1,6 +1,5 @@
 package com.javalec.MyBlog.QnA;
 
-import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
@@ -17,7 +16,7 @@ public class boardController {
 	@Autowired
 	private BoardService boardService;
 	
-	@RequestMapping(value="/qna.do", method = RequestMethod.GET)
+	@RequestMapping(value="/QnA.do", method = RequestMethod.GET)
 	public ModelAndView QnAList(Map<String,Object> commandMap) {
 		System.out.println("큐엔에이");
 		ModelAndView mv = new ModelAndView("QnA");

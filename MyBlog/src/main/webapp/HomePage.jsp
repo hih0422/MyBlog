@@ -5,7 +5,7 @@
 </script>
 <script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.ko.T5_uc2YIFh4.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOAmYpHJs05I55TUkctZrVpD14M8w/cb=gapi.loaded_0" async="">
 </script>
-<script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js" gapi_processed="true">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" gapi_processed="true">
 </script>
 <script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0">
 </script>
@@ -30,14 +30,15 @@ Editorial | HTML5 UP
 <meta property="twitter:site" content="@ajlkn">
 <meta property="twitter:creator" content="@ajlkn">
 <link rel="canonical" href="https://html5up.net/editorial">
-<link rel="icon" href="https://html5up.net/assets/icons/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon-precomposed" href="https://html5up.net/assets/icons/apple-touch-icon-precomposed.png">
+<!-- <link rel="icon" href="https://html5up.net/assets/icons/favicon.ico" type="image/x-icon"> -->
+<link rel="apple-touch-icon-precomposed" href="https://html5up.net/assets/icons/apple-touch-icon-precomposed.png" > 
 <!--[if lte IE 8]> <script src="/assets/js/html5shiv.js" type="text/javascript"></script> <![endif]-->
-<link rel="stylesheet" href="https://html5up.net/assets/css/main.css">
-<!--[if lte IE 8]> <link rel="stylesheet" href="/assets/css/ie8.css" /> <![endif]-->
+
+<link rel="stylesheet" href="https://html5up.net/assets/css/main.css" />
+
+<!--[if lte IE 8]> <link rel="stylesheet"ref="/assets/css/ie8.css" /> <![endif]-->
 <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.6856485337f38b6f9a4326589121d792.js">
 </script>
-
 
 <style type="text/css">
 .fb_hidden{position:absolute;top:-10000px;z-index:10001}
@@ -116,11 +117,11 @@ Editorial | HTML5 UP
 	</header>
 	
 	<div id="demo-iframe-wrapper" class="" style="left: 0px; width: 100%; margin-left: 0px;">
-		<iframe id="demo-iframe" src="http://localhost:8181//main.do" width="100%">-</iframe>
+		<iframe id="demo-iframe" src="http://localhost:8181/main.do" width="100%">-</iframe>
 	</div>
 	
 	<!--[if lte IE 8]><script src="/assets/js/respond.js" type="text/javascript"></script><![endif]-->
-	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js">
+	<script type="text/javascript" src="https://ssl.google-analytics.com/ga.js">
 	</script>
 	<script src="https://html5up.net/assets/js/bundle.js">
 	</script>
@@ -136,7 +137,12 @@ Editorial | HTML5 UP
 				 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			 var s = document.getElementsByTagName('script')[0];
 				 s.parentNode.insertBefore(ga, s);})();
-	</script>
-		
+	</script>	
 	</body>
+	
+	<script src="https://html5up.net/assets/js/jquery.min.js"></script>
+	<script src="https://html5up.net/assets/js/skel.min.js"></script>
+	<script src="/resources/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://html5up.net/assets/js/main.js"></script>
 </html>
