@@ -9,6 +9,7 @@
  * Project 설명
  * 사용 Library 업로드 및 설명 -> 문의하기 버튼을 통한 개인 E-mail 문의
  * 자주 하는 질문 게시판 -> 문의하기 버튼을 통한 개인 E-mail 문의
+ * 구글 검색 API를 통한 구글 검색 
 
 ## Template
   * https://html5up.net/editorial
