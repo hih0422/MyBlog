@@ -34,9 +34,9 @@
 											<script>
 												$('#query').keydown(function(e){
 													if(e.keyCode==13){
-														var val = $('#query').val();
-														console.log(val);
-														window.open("http://www.google.com/search?q="+val);
+														var query = $('#query').val();
+														console.log(query);
+														window.open("http://www.google.com/search?q="+query);
 													}
 												})
 											</script>
