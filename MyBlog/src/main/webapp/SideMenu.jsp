@@ -5,15 +5,41 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
+
 <body>
+
+<script>
+  (function() {
+    var cx = '001942345403424732066:j8eyitnbjum';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>
+
+
 		<div id="sidebar">
 						<div class="inner">
 
 							<!-- Search -->
 								<section id="search" class="alt">
-									<form method="post" action="#">
+									<form method="get" action="#">
 										<input type="text" name="query" id="query" placeholder="Search">
+											<script>
+												$('#query').keydown(function(e){
+													if(e.keyCode==13){
+														var val = $('#query').val();
+														console.log(val);
+														window.open("http://www.google.com/search?q="+val);
+													}
+												})
+											</script>
 									</form>
 								</section>
 
@@ -27,12 +53,13 @@
 										<li>
 											<span class="opener">Project</span>
 											<ul>
-												<li><a href="MoneybookPage.do">MoneyBook</a></li>
+												<li><a href="http://localhost:8181/MoneybookPage.do">MoneyBook</a></li>
 												<li><a href="#">MyBlog</a></li>
 											</ul>
 										</li>
-										<li><a href="generic.html">Library</a></li>
+										<li><a href="LibBoard.do">Library</a></li>
 										<li><a href="QnA.do">QnA</a></li>
+										<li><a href="About.do">About</a></li>
 										
 			
 									</ul>
@@ -67,9 +94,10 @@
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>자기설명</p>
+									<p>921216 김성민 <br>
+									"DO YOUR WORK, DONT BE STUPID"</p>
 									<ul class="contact">
-										<li class="fa-envelope-o"><a href="#">hih1216@naver.com</a></li>
+										<li class="fa-envelope-o">hih1216@naver.com</li>
 										<li class="fa-phone">(010) 3027-6153</li>
 									</ul>
 								</section>

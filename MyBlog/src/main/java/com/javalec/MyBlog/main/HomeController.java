@@ -48,12 +48,6 @@ public class HomeController {
 		return "main";
 	}
 	
-	@RequestMapping(value="/board.do", method= RequestMethod.GET)
-	public String board(){
-		System.out.println("°Ô½ÃÆÇ");
-		return "aa";
-	}
-	
 	
 	
 }

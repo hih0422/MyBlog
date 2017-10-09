@@ -7,9 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="/resources/assets/css/page.css"/>
-
-
+	<%@ include file="/WEB-INF/css-file.jsp" %>
 </head>
 
 	<body class>
@@ -22,7 +20,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by Seongmin </a>
+									<a href="#" class="logo"><strong>Editorial</strong> by Seongmin </a>
 								</header>
 
 							<!-- Content -->

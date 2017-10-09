@@ -33,12 +33,9 @@ Editorial | HTML5 UP
 <!-- <link rel="icon" href="https://html5up.net/assets/icons/favicon.ico" type="image/x-icon"> -->
 <link rel="apple-touch-icon-precomposed" href="https://html5up.net/assets/icons/apple-touch-icon-precomposed.png" > 
 <!--[if lte IE 8]> <script src="/assets/js/html5shiv.js" type="text/javascript"></script> <![endif]-->
-
 <link rel="stylesheet" href="https://html5up.net/assets/css/main.css" />
-
-<!--[if lte IE 8]> <link rel="stylesheet"ref="/assets/css/ie8.css" /> <![endif]-->
-<script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.6856485337f38b6f9a4326589121d792.js">
-</script>
+<%-- <%@ include file="/WEB-INF/css-file.jsp" %> --%>
+<%@ include file="/WEB-INF/commonscript-file.jsp" %>
 
 <style type="text/css">
 .fb_hidden{position:absolute;top:-10000px;z-index:10001}
@@ -117,7 +114,7 @@ Editorial | HTML5 UP
 	</header>
 	
 	<div id="demo-iframe-wrapper" class="" style="left: 0px; width: 100%; margin-left: 0px;">
-		<iframe id="demo-iframe" src="http://localhost:8181/main.do" width="100%">-</iframe>
+		<iframe id="demo-iframe" src="/main.do" width="100%"></iframe>
 	</div>
 	
 	<!--[if lte IE 8]><script src="/assets/js/respond.js" type="text/javascript"></script><![endif]-->
@@ -140,9 +137,11 @@ Editorial | HTML5 UP
 	</script>	
 	</body>
 	
-	<script src="https://html5up.net/assets/js/jquery.min.js"></script>
-	<script src="https://html5up.net/assets/js/skel.min.js"></script>
-	<script src="/resources/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="https://html5up.net/assets/js/main.js"></script>
+	
+	
+	
+<!-- 	<script src="https://html5up.net/assets/js/jquery.min.js"></script> -->
+<!-- 	<script src="https://html5up.net/assets/js/skel.min.js"></script> -->
+<!-- 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> -->
+<!-- 	<script src="https://html5up.net/assets/js/main.js"></script> -->
 </html>

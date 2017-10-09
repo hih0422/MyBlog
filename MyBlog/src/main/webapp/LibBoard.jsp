@@ -1,19 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 	<title>Editorial by HTML5 UP</title>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<%@ include file="/WEB-INF/css-file.jsp" %>
 	<%@ include file="/WEB-INF/commonscript-file.jsp" %>
-	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-	<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<title>Insert title here</title>
 </head>
-
 <body>
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -29,9 +27,9 @@
 								
 								<section>
 									<header class="main">
-										<h1>QnA Í≤åÏãúÌåê</h1>
+										<h1>Library ∞‘Ω√∆«</h1>
 									</header>
-	
+									
 								<table style="border:1px solid #ccc">
 								    <colgroup>
 								        <col width="10%"/>
@@ -41,10 +39,10 @@
 								    </colgroup>
 								    <thead>
 								        <tr>
-								            <th scope="col">Í∏ÄÎ≤àÌò∏</th>
-								            <th scope="col">Ï†úÎ™©</th>
-								            <th scope="col">Ï°∞ÌöåÏàò</th>
-								            <th scope="col">ÏûëÏÑ±Ïùº</th>
+								            <th scope="col">±€π¯»£</th>
+								            <th scope="col">∂Û¿Ã∫Í∑Ø∏Æ</th>
+								            <th scope="col">¡∂»∏ºˆ</th>
+								            <th scope="col">¿€º∫¿œ</th>
 								        </tr>
 								    </thead>
 								    <tbody>
@@ -53,9 +51,7 @@
 								                <c:forEach items="${list }" var="row">
 								                    <tr>
 								                        <td>${row.IDX }</td>
-								                        <td><a href="<c:url value="/QnAContents.do">
-								                        	<c:param name="titleName" value="${row.TITLE}"></c:param>
-								                        	</c:url>">${row.TITLE}</a></td>
+								                        <td>${row.TITLE }</td>
 								                        <td>${row.HIT_CNT }</td>
 								                        <td>${row.CREA_DTM }</td>
 								                    </tr>
@@ -63,14 +59,14 @@
 								            </c:when>
 								            <c:otherwise>
 								                <tr>
-								                    <td colspan="4">Ï°∞ÌöåÎêú Í≤∞Í≥ºÍ∞Ä ÏóÜÏäµÎãàÎã§.</td>
+								                    <td colspan="4">¡∂»∏µ» ∞·∞˙∞° æ¯Ω¿¥œ¥Ÿ.</td>
 								                </tr>
 								            </c:otherwise>
 								        </c:choose>
 								         
 								    </tbody>
 								   </table>
-								   <a href="write.do" class="btn" id="write">Î¨∏ÏùòÌïòÍ∏∞</a>
+								   <a href="write.do" class="btn" id="write">πÆ¿««œ±‚</a>
 							</section>
 						</div>
 				</div>		
@@ -78,14 +74,11 @@
 			<jsp:include page="SideMenu.jsp" flush="true"/>
 			</div>
 
-<!-- 		<!-- Scripts --> 
-<!-- 			<script src="https://html5up.net/uploads/demos/editorial/assets/js/jquery.min.js"></script> -->
-<!-- 			<script src="https://html5up.net/uploads/demos/editorial/assets/js/skel.min.js"></script> -->
-<!-- 			<script src="https://html5up.net/uploads/demos/editorial/assets/js/util.js"></script> -->
-<!-- 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
-<!-- 			<script src="https://html5up.net/uploads/demos/editorial/assets/js/main.js"></script> -->
-			
-
-
+		<!-- Scripts -->
+			<script src="https://html5up.net/uploads/demos/editorial/assets/js/jquery.min.js"></script>
+			<script src="https://html5up.net/uploads/demos/editorial/assets/js/skel.min.js"></script>
+			<script src="https://html5up.net/uploads/demos/editorial/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="https://html5up.net/uploads/demos/editorial/assets/js/main.js"></script>
 </body>
 </html>
